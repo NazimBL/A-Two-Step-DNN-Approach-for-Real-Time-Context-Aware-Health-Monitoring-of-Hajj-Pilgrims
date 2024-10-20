@@ -69,15 +69,14 @@ num_ids = filtered_df['id'].nunique()
 print("Number of IDs:", num_ids)
 
 
-'''
+
 # Print the distribution of every class of physicalTiredLevel
 print("Distribution of physicalTiredLevel:")
 print(df_grouped['physicalTiredLevel'].apply(lambda x: pd.Series(x)).stack().value_counts())
 
 filtered_df.to_csv('filtered_data.csv', index=False)
 
-
-
+'''
 # Filter IDs with more than 100,000 value counts
 filtered_ids = id_counts[id_counts > 100000].index
 filtered_df = df[df['id'].isin(filtered_ids)]
