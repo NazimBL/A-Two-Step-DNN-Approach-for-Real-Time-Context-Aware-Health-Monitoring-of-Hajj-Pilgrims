@@ -180,9 +180,3 @@ print(f"Recall: {recall}")
 
 classification_rep = classification_report(y_val_tabnet, y_pred_tabnet)
 print(f"Classification Report:\n{classification_rep}")
-
-'''''
-X_train_lstm, X_val_lstm, y_train_lstm, y_val_lstm  = train_test_split(
-    X_lstm_normalized, y_lstm_categorical, test_size=0.2, random_state=42
-)
-'''
