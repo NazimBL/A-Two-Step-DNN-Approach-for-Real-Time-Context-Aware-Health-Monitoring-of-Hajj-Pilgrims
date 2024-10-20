@@ -19,7 +19,7 @@ The Physical Tiredness Level classification task involved predicting one of five
 The Emotional Mood Level classification task aimed to predict the emotional status of the participants, categorized into three classes: 0 (very negative and negative), 1 (neutral), and 2 (positive and very positive).
 
 -Rukun (Hajj Ritual) Activity: Run TwoStep_rukun_Prediction.py
-The Rukun (Hajj Ritual) Activity classifica￾tion task involved predicting one of 16 specific Hajj-related activities performed by the participants.
+The Rukun (Hajj Ritual) Activity classification task involved predicting one of 16 specific Hajj-related activities performed by the participants.
 
 
 Feel free to reach out to me at bellabaci.nazim@gmail.com if you have any question or feedback.
